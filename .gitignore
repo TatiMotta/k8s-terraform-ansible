@@ -1,0 +1,43 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# AWS
+.aws/
+*.pem
+
+# SSH
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Ansible
+*.retry
+
+# Secrets
+.env
+.env.*
+secrets.yml
+vault_pass.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
